@@ -6,27 +6,17 @@
     <title>MyBlogs</title>
 </head>
 <body>
+
+    {% for post in posts %}
+      <div>
+          <h2>{{post.title}}</h2>
+          <p>{{post.text}}</p>
+          <p>Authored by : {{post.author}}</p>
+          <p>Created Date : {{post.created_date}}</p>
+          <p>Published Date : {{post.published_date}}</p>
+      </div>
+    {% endfor %}
     
-    <div id="blog1">
-        <h2>Title of blog 1</h2>
-        <p>Content of blog post 1</p>
-        <p>Authored by : author</p>
-        <p>Created Date : </p>
-        <p>Published date : </p>
-    </div>
-    <div id="blog2">
-        <h2>Title of blog 2</h2>
-        <p>Content of blog post 2</p>
-        <p>Authored by : author</p>
-        <p>Created Date : </p>
-        <p>Published date : </p>
-    </div>
-    <div id="blog3">
-        <h2>Title of blog 3</h2>
-        <p>Content of blog post 3</p>
-        <p>Authored by : author</p>
-        <p>Created Date : </p>
-        <p>Published date : </p>
-    </div>
+   
 </body>
 </html>
