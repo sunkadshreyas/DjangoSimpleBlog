@@ -17,12 +17,12 @@
 }
 
 
-/*.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     font-size: 36pt;
     font-weight: 500;
     font-family: 'Lobster Two', cursive;
     text-decoration: none;
-}*/
+}
 
 
 .content {
