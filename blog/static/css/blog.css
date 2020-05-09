@@ -28,7 +28,6 @@
 .content {
     margin-left: 40px;
     font-family: 'Roboto', sans-serif;
-    font-size: medium;
     background-color: lightblue;
     border-radius: 15px;
 }
@@ -49,7 +48,6 @@
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 28pt;
     margin-right: 20px;
 }
 

@@ -3,12 +3,15 @@
 {% block content %}
    <div class="post">
        <h2>{{ post_title }}</h2>
-       <p style="font-size: 28px;">{{ post.text | linebreaksbr }}</p>
+       <p style="font-size: 22px;">{{ post.text | linebreaksbr }}</p>
        <p>Authored by : {{ post.author | linebreaksbr }}</p>
        {% if post.published_date %}
           <div class="date">
               Published Date : {{ post.published_date}}
-          </div>
+          </div><br>
         {% endif %}  
+        {% if user.is_authenticated %}
+            <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">Edit</a>
+        {% endif %}
    </div>
 {% endblock %}
