@@ -1,5 +1,5 @@
 .page-header {
-    background-color:burlywood;
+    background-color:lightskyblue;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -7,7 +7,7 @@
 
 
 body{
-    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4670051.jpg');
+    background-image: url('https://media.istockphoto.com/vectors/simple-vector-hand-draw-sketch-seamless-pattern-brown-background-cook-vector-id1130104983');
     background-attachment: scroll;
     width: 100%;
 }
@@ -21,23 +21,30 @@ body{
 
 
 .post, .edit-post{
-    margin-left: 40%;
+    margin-left: 35%;
     margin-right: auto;
     width: 100%;
 }
 
 @media screen and (max-width:980px){
-    .post{
+    .post, .edit-post{
         margin-left: 0%;
     }
 }
 
 .post, .edit-post{
-    background-color: white;
+    background-color: azure;
+    border: 1px solid darkblue;
+    box-shadow: 5px 5px 5px grey;
     width: 600px;
     border-radius: 10px;
     padding: 10px;
     padding-left: 15px;
+    
+}
+
+.post:hover{
+    box-shadow: 10px 10px 10px gray;
 }
 
 .post p{
@@ -54,6 +61,27 @@ h1, h2, h3, h4 {
 
 .date {
     color: darkgray;
+}
+
+.loginform{
+    margin-left: 40%;
+    margin-top: 35px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 5px gray;
+    padding: 15px;
+    width: 35em;
+}
+
+@media screen and (max-width:980px){
+    .loginform{
+        margin-left: 0%;
+    }
+}
+
+.loginform:hover{
+    box-shadow: 10px 10px 10px gray;
 }
 
 .save {
@@ -76,13 +104,14 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color:brown;
+    color:blue
 }
+
 
 tr,td{
     padding: 15px;
-    border-spacing: 5px;
-    color: yellow;
-    text-transform: capitalize;
+    border-spacing: 5px;    
+    font-family: Arial, Helvetica, sans-serif;
 }
+
   
